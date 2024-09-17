@@ -10,18 +10,18 @@
     <div class="container">
         <div class="teams">
             <h1 class="heading">HOME</h1>
-            <div id="home-score" class="score">12</div>
-            <button class="incrementer">+1</button>
-            <button class="incrementer">+2</button>
-            <button class="incrementer">+3</button>
+            <div id="home-score" class="score"></div>
+            <button onclick="addOneHome()" class="incrementer">+1</button>
+            <button onclick="addTwoHome()" class="incrementer">+2</button>
+            <button onclick="addThreeHome()" class="incrementer">+3</button>
         </div>
 
         <div class="teams">
             <h1 class="heading">GUEST</h1>
-            <div id="guest-score" class="score">5</div>
-            <button class="incrementer">+1</button>
-            <button class="incrementer">+2</button>
-            <button class="incrementer">+3</button>
+            <div id="guest-score" class="score"></div>
+            <button onclick="addOneGuest()" class="incrementer">+1</button>
+            <button onclick="addTwoGuest()" class="incrementer">+2</button>
+            <button onclick="addThreeGuest()" class="incrementer">+3</button>
         </div>
     </div>
     <script src="./assets/scripts/script.js"></script>
