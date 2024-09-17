@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/Digital-Dismay.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body, html {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(33, 33, 69);
+    width: 600px;
+    height: 350px;
+    border: solid 5px rgb(159, 247, 250);
+    border-radius: 20px;
+}
+
+.heading {
+    font-size: 40px;
+    color: rgb(159, 247, 250);
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+
+}
+
+.teams{
+    height: 85%;
+    text-align: center;
+}
+
+.score{
+    height: 100px;
+    width: 150px;
+    background-color: black;
+    color: rgb(246, 79, 79);
+    font-size: 85px;
+    text-align: center;
+    font-family: 'CustomFont', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+
+.incrementer {
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 5px;
+    color: rgb(127, 194, 196);
+    background: none;
+    border: 1px solid rgb(127, 194, 196);
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'CustomFont', Arial, sans-serif;
+    letter-spacing: 1px;
+
+}
