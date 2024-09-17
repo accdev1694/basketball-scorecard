@@ -48,6 +48,9 @@ body, html {
     text-align: center;
     font-family: 'CustomFont', Arial, sans-serif;
     letter-spacing: 5px;
+    box-shadow: 1px 1px 10px;
+    border-radius: 10px;
+    border: solid 1px rgb(179, 148, 148);
 }
 
 .incrementer {
@@ -63,5 +66,12 @@ body, html {
     font-size: 15px;
     font-family: 'CustomFont', Arial, sans-serif;
     letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.543);
+
+}
+
+.incrementer:hover {
+    background: none;
+    box-shadow: 1px 1px 10px rgb(165, 42, 42);
 
 }
